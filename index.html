@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gullu Rahimova, Office Applications and IT Instructor</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <span class="mark" data-i="name">Gullu Rahimova</span>
+    <div class="links">
+      <a href="#subjects" data-i="n1">Subjects</a>
+      <a href="#approach" data-i="n2">Approach</a>
+      <a href="#experience" data-i="n3">Experience</a>
+      <a href="#contact" data-i="n4">Contact</a>
+    </div>
+    <div class="pill" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="az" aria-pressed="false">AZ</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1 data-i="name">Gullu Rahimova</h1>
+      <p class="role" data-i="role">Office Applications and IT Instructor</p>
+      <p class="lead" data-i="lead">I teach office applications and IT with a practical, student-centered approach. Since 2022 I’ve taught more than 600 students at a university, academies and a school, building each lesson around the learner’s level and pace.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:gullurahimova9@gmail.com" data-i="b1">Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/gullurahimova9" target="_blank" rel="noopener" data-i="b2">View LinkedIn</a>
+      </div>
+    </div>
+    <aside class="now">
+      <h2 data-i="nowh">Teaching now</h2>
+      <ul id="now"></ul>
+    </aside>
+  </header>
+</div>
+
+<section id="subjects">
+  <div class="wrap">
+    <h2 data-i="h1s">What I teach</h2>
+    <p class="sub" data-i="s1s">Choose a subject to see what students learn and where I teach it.</p>
+    <div class="shelf">
+      <div class="tabs" id="tabs" role="group" aria-label="Subjects"></div>
+      <article id="panel" aria-live="polite">
+        <p class="panel-intro" id="si"></p>
+        <h3 data-i="learn">Students learn</h3>
+        <ul class="ticks" id="st"></ul>
+        <p class="at"><span data-i="taught"></span> <strong id="sw"></strong></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="approach">
+  <div class="wrap">
+    <h2 data-i="h2s">How I teach</h2>
+    <p class="sub" data-i="s2s">The way I plan and run every course.</p>
+    <ol class="steps" id="steps"></ol>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2 data-i="h3s">Experience</h2>
+    <p class="sub" data-i="s3s">Teaching and assessment work across a university, academies and a school.</p>
+    <ol class="tl" id="jobs"></ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 data-i="h4s">Skills and tools</h2>
+    <div class="skills" id="skills"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap trio">
+    <div><h2 data-i="hedu">Education</h2><div id="edu"></div></div>
+    <div><h2 data-i="hcert">Certificates</h2><div id="cert"></div></div>
+    <div><h2 data-i="hlang">Languages</h2><div id="lang"></div></div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2 data-i="fh">Looking for an IT or office-skills instructor?</h2>
+    <div class="cta">
+      <a class="btn primary" href="mailto:gullurahimova9@gmail.com">gullurahimova9@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/gullurahimova9" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
